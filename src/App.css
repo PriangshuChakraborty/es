@@ -1,0 +1,38 @@
+/* App.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+*{
+  margin: 0;
+  padding: 0;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+
+}
+
+.table th,
+.table td {
+  border: 1px solid #ffffff;
+}
+
+.table th {
+  background-color: #ffffff;
+}
+
+.table td {
+  height: 50px;
+}
+
+.bg-blue-400 {
+  background-color: #4299e1;
+  color: white;
+}
+
+.table-auto {
+  width: auto; 
+}
+
+
